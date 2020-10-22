@@ -1,6 +1,6 @@
 [package]
 description=udp-scan 
 script_dir = scripts
-version = 0.1 
+version = 2.0 
 tags = ws-discovery, scan, dos, toshiba, copiers, scanners 
 test_command = ( cd tests && btest -d )
