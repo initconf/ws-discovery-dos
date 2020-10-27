@@ -13,5 +13,5 @@ signature ws-faultstring-udp {
     event "ws-discovery-dos-faultstring"
 }
 
-    #payload /\<SOAP-ENV\:Fault/ 
-    #payload /\x3c\x53\x4f\x41\x50\x2d\x45\x4e\x56\x3a\x46\x61\x75\x6c\x74/ 
+#payload /\<SOAP-ENV\:Fault/ 
+#payload /\x3c\x53\x4f\x41\x50\x2d\x45\x4e\x56\x3a\x46\x61\x75\x6c\x74/ 

@@ -6,14 +6,13 @@ Following functionality are provided by the script
 --------------------------------------------------
 ::
         1) identifies spoofed traffic and subsiquent DNS amplification attack
-	2) builds you a list of possible sources which are responding to 3072/udp DNS amplification attack
+		2) builds you a list of possible sources which are responding to 3072/udp DNS amplification attack
 
 Installation
 ------------
-	bro-pkg install bro/initconf/ws-discovery-dos
+	zkg install zeek/initconf/ws-discovery-dos
 	or
 	@load ws-discovery-dos/scripts 
-
 
 Detailed Notes:
 ---------------
@@ -25,12 +24,10 @@ Heuristics  are simple: check for
 
 This should generate following Kinds of notices:
 
-
 Example notice: 
 ***************************
+1557480963.014124	CHhAvVGS1DHFjwGM9	67.218.118.62	20922	128.3.2.198	3702	-	-	-	udp	Signatures::Sensitive_Signature	67.218.118.62: ws-discovery-dos	<\xaa>	67.218.118.62	128.3.2.198	3702	-	-	Notice::ACTION_LOG	3600.000000	-	-	-	-	-
 
-Example Summary Notice: 
-***************************
 
 
 
